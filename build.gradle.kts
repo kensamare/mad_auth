@@ -38,7 +38,7 @@ tasks {
     signPlugin {
         certificateChainFile.set(file("certificate/chain.crt"))
         privateKeyFile.set(file("certificate/chain.crt"))
-        password.set(providers.environmentVariable("MadBrains"))
+        password.set(providers.environmentVariable(""))
     }
 
     publishPlugin {
